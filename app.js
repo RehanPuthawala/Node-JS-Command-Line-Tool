@@ -1,12 +1,8 @@
-// console.log(require);
-const message = require("./testing.js");
+const fs = require("fs");
 
-// console.log(message.understandingNode);
-// console.log(message.praiseForNode);
+fs.readdir(process.cwd(), (err, files) => {
+  if (err) throw new Error(err);
+  console.log(files);
+});
 
-message.understandingNode = "Node is Very Detailed";
-// console.log(message.understandingNode);
 
-const newMessage = require("./testing.js");
-
-console.log(newMessage.understandingNode);
