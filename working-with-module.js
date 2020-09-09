@@ -35,7 +35,7 @@ fs.readdir("./", (err, files) => {
 //* Watch Files *//
 
 // fs.watchFile(
-//   "C:\\Users\\Mo.Rehan Puthawala\\Desktop\\testingNode.txt",
+//   "C:\\Users\\Mo.Rehan Puthawala\\Deskto p\\testingNode.txt",
 //   (current, prev) => {
 //     console.log(`The files current name is ${current.mtime}`);
 //     console.log(`The files current name is ${prev.mtime}`);
@@ -48,4 +48,3 @@ fs.readdir("./", (err, files) => {
 //   if (err) throw err;
 //   console.log("file renamed");
 // });
-
